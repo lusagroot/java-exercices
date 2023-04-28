@@ -1,0 +1,14 @@
+package estruturacondicionalSE;
+
+public class Main {
+    public static void main(String[] args) {
+        // TODO code application logic here
+    int media = 7;
+    
+    if (media >=7) {
+        System.out.println("Aprovado");
+    } else {
+        System.out.println ("Reprovado");
+    } 
+    }    
+}
