@@ -1,0 +1,34 @@
+*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package listadeexercicio14;
+
+/**
+ *
+ * @author luciana saliba groot
+ */
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    int x = 15;
+    int y = 17;
+    
+    if (x < y) {
+        System.out.println ("o numero y é maior que x");
+        System.out.println ("y=" + y); 
+        System.out.println ("x=" + x); 
+    } else{
+        System.out.println ("o numero x é maior que y");
+        System.out.println ("y=" + y); 
+        System.out.println ("x=" + x);  
+    }
+    
+    }
+    
+}
