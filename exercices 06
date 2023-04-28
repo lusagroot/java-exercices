@@ -1,0 +1,35 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ * algoritmo que receba dois numero e exiba o resultado da soma
+ */
+package listadeexercicio1;
+
+import java.util.Scanner;
+
+public class Main {
+// nome da classe
+// lista de métodos
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+    // TODO code application logic here
+    int x;
+    int y;
+    int soma;
+    
+    System.out.println("Digite dois  valores: ");
+    
+    Scanner leitorScanner = new Scanner(System.in);
+    
+    x = leitorScanner.nextInt();
+    y = leitorScanner.nextInt();
+    
+    // Condições:
+    soma = x + y;
+    System.out.println("SOMA=" + soma);
+    }
+    
+}
