@@ -1,0 +1,38 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package listaexercicio15;
+
+/**
+ *
+ * @author luciana saliba groot
+ */
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    int a= 86;
+    int b= 105;
+    
+    if (a >=100 && a <= 200){
+        System.out.println("a=" + a);
+        System.out.println("a está entre o intervalo de 100 e 200");
+    }else {
+       System.out.println("a=" + a);
+       System.out.println("a não está entre o intervalo de 100 e 200");
+    } 
+    if (b >=100 && b<= 200){
+        System.out.println("b=" + b);
+        System.out.println("b está entre o intervalo de 100 e 200");
+        } else {
+        System.out.println("b=" + b);
+        System.out.println("b não está entre o intervalo de 100 e 200");    
+        }
+    }
+    
+}
