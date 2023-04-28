@@ -1,0 +1,41 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package listadeexercicio6;
+import java.util.Scanner;
+/**
+ *
+ * @author luciana saliba groot
+ */
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+    int a;
+    int b;
+    int auxiliar;
+    
+    
+    Scanner leitorScanner = new Scanner(System.in);
+    
+    System.out.println("Digite o valor de a: ");
+    a = leitorScanner.nextInt();
+    System.out.println("Digite o valor de b: ");
+    b = leitorScanner.nextInt();
+    
+
+    auxiliar = a;
+    System.out.println("o valor de auxiliar : " + auxiliar);
+    a = b;
+    System.out.println("o valor de a: " + a);
+    b = auxiliar;
+    System.out.println("o valor de b : " + b);
+    }
+    
+}
