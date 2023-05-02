@@ -1,0 +1,54 @@
+// lista de exercicios linguagem java
+// lista 01
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package listadeexercicio9java;
+
+import java.util.Scanner;
+
+public class Main {
+// nome da classe
+// lista de métodos
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+    // TODO code application logic here
+
+    float jurofinal = 0.0f;
+    float jurospercentual = 0.0;
+    float capitalinicial = 0.0f;
+    float juromensal = 0.0f;
+    int periodo = 0:
+
+    Scanner leitorScanner = new Scanner(System.in);
+    
+    
+    System.out.println("Digite o capital inicial: ");  
+    capitalinicial = leitorScanner.nextFloat(); 
+
+
+    System.out.println("Digite o periodo de rendimento: ");  
+    periodo = leitorScanner.nextInt();
+
+    System.out.println("Digite o juro mensal: ");  
+    juropercentual = leitorScanner.nextFloat(); 
+
+    juromensal = juropercentual/100;
+
+    jurofinal = capitalinicial * juromensal
+    System.out.println("Digite o periodo de rendimento: ");  
+    periodo = leitorScanner.nextInt();
+
+    jurosfinal = capitalinicial * juromensal * periodo  
+
+
+    System.out.println("O rendimento foi de : " + jurosfinal);  
+    
+    }
+    
+}
